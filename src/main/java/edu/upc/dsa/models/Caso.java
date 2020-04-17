@@ -16,6 +16,8 @@ public class Caso implements Comparable<Caso> {
     String direccion;
     String clasificacion;
 
+    public Caso(){}
+
     public Caso(String nombre, String apellido, String id, int fechanacimiento, int fechainforme, String riesgo, String genero, String mail, String telefono, String direccion, String clasificacion) {
         this.nombre = nombre;
         this.apellido = apellido;

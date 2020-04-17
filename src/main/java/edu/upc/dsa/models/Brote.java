@@ -11,6 +11,7 @@ public class Brote {
     String id;
     List<Caso> casos;
 
+    public Brote(){}
 
 
 
